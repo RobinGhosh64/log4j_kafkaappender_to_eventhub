@@ -46,4 +46,7 @@ You can also run the app without packaging it using -
 mvn spring-boot:run
 ```
 
-You should see the following output as shown in the image folders attached. Please verify
+You should see the following output as shown in the image folders attached. Please verify and make sure you see the 
+
+
+<img src="images/SpringBootApp-Connecting-2-EH.png">
