@@ -2,10 +2,21 @@
 
 Azure Event Hub is Microsoft's own Kafka product
 
+## Step 1: Setup Azure subscription and make sure you can  sign in 
 
+Initial login and subscription setup is a required prerequisite
+
+
+NOTE: The region location of the Resource Group may be different than the Azure resources 
+
+## Step 2: Create an Azure Resource Group 
+
+  Navigate to the **Resource Groups** from the top main search bar. Select **Create** to create a New Resource Group
+  
+  
 There are two ways you can send application logs to Azure Event Hub.
-1) If your applications are already running on Azure App Service, you can go to the Monitoring section
-   of your App instance, go to --Daignostics Settings-- then add a new destination pointing straight to Event Hub
+1) If your applications are already running on Azure App Service, you can go to the **Monitoring** section
+   of your App instance, go to **Daignostics Settings** then click on **Add diagnostic setting** and choose the log types from the left side and **Event Hub** on the right side as your destination choice
    (This requires no code changes)
 <br>
 OR
