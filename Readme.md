@@ -4,9 +4,10 @@ Azure Event Hub is Microsoft's own Kafka product
 
 
 There are two ways you can send application logs to Azure Event Hub.
-1) If your applications are already running on Azure App Service, you can go to the <Monitoring> section
-   of your App instance, go to <Daignostics Settings> then add a new destination pointing straight to Event Hub
+1) If your applications are already running on Azure App Service, you can go to the Monitoring section
+   of your App instance, go to --Daignostics Settings-- then add a new destination pointing straight to Event Hub
    (This requires no code changes)
+<br>
 OR
 
 2) Send to Azure Event Hub directly from your application code using standard Log4J appenders. 
