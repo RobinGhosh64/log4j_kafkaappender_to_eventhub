@@ -13,7 +13,7 @@ OR
    If you are already sending logs to Kafka servers using Log4J appender, replace the connection string parameters in your configuration to point to our Event Hub.
    No further changes are required to your project.
    
-   If you have not using log4j appenders and using standard Spring logging only, please update your pom.xml based on this project and add Kafka appender in your log4j settings. The log4j settings can be found in the **src/main/resources/log4j2.xml** file.
+   If you are not using log4j appenders and using standard Spring logging only, please update your pom.xml based on this project and add Kafka appender in your log4j settings. The log4j settings can be found in the **src/main/resources/log4j2.xml** file.
    
 
 
@@ -46,7 +46,7 @@ You can also run the app without packaging it using -
 mvn spring-boot:run
 ```
 
-You should see the following output as shown in the image folders attached. Please verify and make sure you see the 
+You should see the following output as shown in the image folders attached. Please verify and make sure you see the Kafka comits and Kafka producer lines in your run
 
 
 <img src="images/SpringBootApp-Connecting-2-EH.png">
