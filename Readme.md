@@ -7,8 +7,8 @@ There are two ways you can send application logs to Azure Event Hub.
    of your App instance, go to **Daignostics Settings** then click on **Add diagnostic setting** and choose the log types from the left side and **Event Hub** on the right side as your destination choice.
    (This requires no code changes)
    <br>
-   Portal steps here  [Azure Portal](https://github.com/RobinGhosh64/log4j_kafkaappender_to_eventhub/images/app-eh-1.png)
-   Portal steps here [Azure Portal](https://github.com/RobinGhosh64/log4j_kafkaappender_to_eventhub/images/app-eh-2.png)
+   [Portal step 1] (https://github.com/RobinGhosh64/log4j_kafkaappender_to_eventhub/tree/main/images/app-eh-1.png)
+   [Portal step 2] (https://github.com/RobinGhosh64/log4j_kafkaappender_to_eventhub/tree/main/images/app-eh-2.png)
 <br>
 OR
 
