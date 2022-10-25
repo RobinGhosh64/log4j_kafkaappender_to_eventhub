@@ -4,9 +4,11 @@ Azure Event Hub is Microsoft's own Kafka product
 
 There are two ways you can send application logs to Azure Event Hub.
 1) If your applications are already running on Azure App Service, you can go to the **Monitoring** section
-   of your App instance, go to **Daignostics Settings** then click on **Add diagnostic setting** and choose the log types from the left side and **Event Hub** on the right side as your destination choice
+   of your App instance, go to **Daignostics Settings** then click on **Add diagnostic setting** and choose the log types from the left side and **Event Hub** on the right side as your destination choice.
    (This requires no code changes)
-   e accomplished via the [Azure Portal](https://docs.microsoft.com/en-us/azure/cosmos-db/create-cosmosdb-resources-portal)
+   <br>
+   Portal steps here  [Azure Portal](https://github.com/RobinGhosh64/log4j_kafkaappender_to_eventhub/images/app-eh-1.png)
+   Portal steps here [Azure Portal](https://github.com/RobinGhosh64/log4j_kafkaappender_to_eventhub/images/app-eh-2.png)
 <br>
 OR
 
