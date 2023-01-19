@@ -1,6 +1,6 @@
 # Sending Application Logs to Azure Event Hub
 
-Azure Event Hub is Microsoft's own Kafka product
+Azure Event Hub is Microsoft's own Kafka product and uses HTTP and AMQP protocols for networking.
 
 There are two ways you can send application logs to Azure Event Hub.
 1) If your applications are already running on Azure App Service, you can go to the **Monitoring** section
@@ -50,7 +50,7 @@ You can also run the app without packaging it using -
 mvn spring-boot:run
 ```
 
-You should see the following output as shown in the image folders attached. Please verify and make sure you see the Kafka comits and Kafka producer lines in your run
+You should see the following output as below once you run your app. Make sure it has connected to Azure EventHub namespace. Screen image available in the image folder of this project. Please verify and make sure you see the Kafka commits and Kafka producer lines in your run
 
 
 <img src="images/SpringBootApp-Connecting-2-EH.png">
